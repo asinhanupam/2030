@@ -1,0 +1,25 @@
+// Lab1
+// EXERCISE #1
+    System.out.println(Integer.MAX_VALUE);   // max int value
+    System.out.println(Double.MIN_VALUE);    // min double value greater than 0
+
+//EXERCISE #2
+    quaters = cents / 25;                    // 100 / 25 = 4 quaters
+    
+if(degrees >= 0)
+{
+  if(degrees < 360)
+  return degrees;
+  
+  else
+  return (degrees % 360);                     // 725 % 360 = 5
+}
+
+else
+{
+if(degrees > -359)
+  return degrees;
+  
+  else
+  return (degrees % -360);                    // -730 % -360 = -10
+}
